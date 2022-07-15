@@ -16,7 +16,6 @@ yield put(actions.loginSuccess({...response.data}));
 toast.success('Logado com sucesso');
 axios.defaults.headers.Authorization = `Bearer ${response.data.token}`;
 
-console.log(payload);
 
  history.goBack();
 }catch(e){
