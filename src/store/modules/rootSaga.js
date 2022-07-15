@@ -1,8 +1,8 @@
 import { all} from 'redux-saga/effects';
 
-import exemple from './exemple/saga';
+import auth from './auth/saga'
 
 
 export default function* rootSaga(){
-  return yield all([exemple])
+  return yield all([auth])
 }

@@ -4,8 +4,8 @@ import {ToastContainer} from 'react-toastify'
 import { Provider } from 'react-redux';
 import {PersistGate} from 'redux-persist/integration/react';
 
-import store, {persistor} from './store'
-import * as history from './services/history';
+import store, {persistor} from './store';
+import history from './services/history';
 import GlobalStyle from './styles/GlobalStyles';
 import Header from './components/Header';
 import Rotas from './routes';

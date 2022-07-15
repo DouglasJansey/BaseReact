@@ -28,8 +28,8 @@ module.exports = {
     'react/jsx-filename-extension': 0,
     'import/prefer-default-export':0,
     'react/react-in-jsx-scope' : 'off',
-    'react/prop-types':0,
     'default-param-last':0,
+    'react/jsx-props-no-spreading':0,
 
   },
 };
